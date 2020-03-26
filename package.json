@@ -24,13 +24,11 @@
     "url": "https://github.com/oze4/react-flexbox-slim/issues"
   },
   "homepage": "https://github.com/oze4/react-flexbox-slim#readme",
-  "dependencies": {
-    "prop-types": "^15.7.2"
-  },
   "peerDependencies": {
     "react": "*",
     "react-dom": "*",
-    "styled-components": "^5"
+    "styled-components": "^5",
+    "prop-types": "^15"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
