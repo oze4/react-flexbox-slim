@@ -1,0 +1,42 @@
+{
+  "name": "react-flexbox-slim",
+  "version": "1.0.0",
+  "description": "Flexbox in React but slim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oze4/react-flexbox-slim.git"
+  },
+  "keywords": [
+    "react",
+    "flexbox",
+    "flex",
+    "box"
+  ],
+  "author": "Matt Oestreich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oze4/react-flexbox-slim/issues"
+  },
+  "homepage": "https://github.com/oze4/react-flexbox-slim#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "styled-components": "^5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7"
+  }
+}
