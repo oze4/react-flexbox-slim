@@ -6,10 +6,15 @@
 
 ## Table of Contents
 
+ - [Installation](#installation)
  - [Examples](#examples)
  - [Components and Properties](#Components-and-Properties)
 
 ---
+
+## Installation
+
+`npm install --save react-flexbox-slim`
 
 ## Components and Properties
 
