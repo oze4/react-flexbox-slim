@@ -4,6 +4,8 @@
   "description": "Flexbox in React but slim",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm run rollup",
+    "rollup": "./node_modules/.bin/rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,9 +36,10 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
-    "@babel/preset-react": "^7.9.1",
-    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
-    "babel-plugin-styled-components": "^1.10.7"
+    "babel-plugin-styled-components": "^1.10.7",
+    "prettier": "^2.0.2",
+    "rollup": "^2.2.0",
+    "rollup-plugin-babel": "^4.4.0"
   }
 }
