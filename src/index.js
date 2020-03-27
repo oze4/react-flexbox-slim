@@ -1,2 +1,3 @@
-export { default as Row } from './Row.jsx';
-export { default as Column } from './Column.jsx';
+export { default as Row } from './components/Row';
+export { default as Column } from './components/Column';
+export { default as Grid } from './components/Grid';
