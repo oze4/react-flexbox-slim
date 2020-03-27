@@ -1,6 +1,6 @@
 {
   "name": "react-flexbox-slim",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Flexbox in React but slim",
   "main": "lib/bundle.es.js",
   "scripts": {
