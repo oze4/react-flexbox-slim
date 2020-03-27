@@ -1,5 +1,7 @@
 # react-flexbox-slim
 
+[![npm version](https://badge.fury.io/js/react-flexbox-slim.svg)](https://badge.fury.io/js/react-flexbox-slim)
+
 ### Customizable flexbox grid system for React
 
  - [Installation](#installation)
