@@ -22,6 +22,12 @@
  - Utilizing the `<Grid>` component/wrapper, you can fully customize the grid system (number of columns and breakpoints)
  - The `<Grid>` component uses the Context API to pass down any customization
  - See the [examples](#examples) for more information
+ - We provide `esm` and `umd` modules
+   - By default, `esm` is imported
+   - To import `umd` use: 
+   ```javascript
+   const { Row, Column } = require('react-flexbox-slim/lib/bundle.umd.js')
+   ```
 
 ---
 
@@ -49,7 +55,6 @@
 
 ```javascript
 // Basic 12 column grid system, using defaults
-
 <Row justifyContent='center'>
   <Column xs={12} sm={4} md={6} lg={6} xl={3}>
     <p>Hello,</p>
