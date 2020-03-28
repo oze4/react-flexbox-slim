@@ -39,10 +39,10 @@
 // breakpoints
 {
   xs: '0px',
-  sm: '540px',
-  md: '768px',
-  lg: '992px',
-  xl: '1200px',
+  sm: '600px',
+  md: '960px',
+  lg: '1280px',
+  xl: '1920px',
 }
 ```
 

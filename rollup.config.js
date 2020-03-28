@@ -24,10 +24,12 @@ const CONSTANTS = {
 }
 
 export default [
+
+  // ES
   {
     input: CONSTANTS.input,
     output: {
-      file: 'lib/bundle.es.js',
+      file: 'lib/esm/index.js',
     },
     plugins: [
       resolve(CONSTANTS.plugins.resolve),
@@ -37,10 +39,12 @@ export default [
     ],
     external: CONSTANTS.external,
   },
+
+  // UMD
   {
     input: CONSTANTS.input,
     output: {
-      file: 'lib/bundle.umd.js',
+      file: 'lib/umd/index.js',
       name: 'ReactFlexboxSlim',
       format: 'umd',
       globals: CONSTANTS.output.globals,
@@ -53,4 +57,22 @@ export default [
     ],
     external: CONSTANTS.external,
   },
+
+  // CJS
+  {
+    input: CONSTANTS.input,
+    output: {
+      file: 'lib/cjs/index.js',
+      format: 'cjs',
+      globals: CONSTANTS.output.globals,
+    },
+    plugins: [
+        resolve(CONSTANTS.plugins.resolve),
+        // strip(),
+        babel(CONSTANTS.plugins.babel),
+        // terser(),
+    ],
+    external: CONSTANTS.external,
+  },
+
 ];

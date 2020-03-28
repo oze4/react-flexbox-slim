@@ -2,7 +2,7 @@
   "name": "react-flexbox-slim",
   "version": "1.1.1",
   "description": "Flexbox in React but slim",
-  "main": "lib/bundle.es.js",
+  "main": "lib/esm/index.js",
   "scripts": {
     "prepublish": "npm run rollup",
     "rollup": "./node_modules/.bin/rollup -c",
